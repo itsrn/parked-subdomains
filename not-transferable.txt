@@ -1,0 +1,8 @@
+# This is a list of subdomains that can not be requested being transferred
+# This list will probably be updated in the future
+
+d1loop.vercel.app
+d1loop-wiki.vercel.app
+hamerkaz.vercel.app
+hamerkaz-beta.vercel.app
+hamerkaz-il.vercel.app
