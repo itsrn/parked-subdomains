@@ -6,3 +6,6 @@ d1loop-wiki.vercel.app
 hamerkaz.vercel.app
 hamerkaz-beta.vercel.app
 hamerkaz-il.vercel.app
+rons.vercel.app
+ronuss.vercel.app
+ronnuss.vercel.app

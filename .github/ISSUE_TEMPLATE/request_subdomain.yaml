@@ -1,0 +1,32 @@
+name: Request Subdomain
+description: File a request to receive ownership of one of the used subdomain
+title: "[Request] (the subdomain)"
+labels: ["subdomain request"]
+assignees:
+  - itsrn
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can I get in touch with you for further details?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why do you want to subdomain?
+      description: Explain why you want to receive the ownership of the mentioned subdomain. 
+      placeholder: I want to receive ownership of the subdomain because...
+      value: "I want to receive ownership of the subdomain because..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Transferable subdomain check
+      description: The subdomain you want to receive must not appear in the [`not-transferable.txt`](https://github.com/itsrn/parked-subdomains/blob/master/not-transferable.txt) file.
+      options:
+        - label: The subdomain I request to receive ownership is transferable and not mentioned in the list
+          required: true
